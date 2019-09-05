@@ -1,0 +1,53 @@
+body {
+    background-color: #FFC0B4;
+    /* For WebKit (Safari, Chrome, etc) */
+    background: #FFC0B4 -webkit-gradient(linear, left top, left bottom, from(#FFF2B4), to(#FFC0B4)) no-repeat;
+    /* Mozilla,Firefox/Gecko */
+    background: #FFC0B4 -moz-linear-gradient(top, #FFF2B4, #FFC0B4) no-repeat;
+    /* IE 5.5 - 7 */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFF2B4, endColorstr=#FFC0B4) no-repeat;
+    /* IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFF2B4, endColorstr=#FFF2B4)" no-repeat;
+}
+
+.video:hover  {
+  -webkit-transform:scale(1.10);
+  -moz-transform:scale(1.10);
+  -ms-transform:scale(1.10);
+  -o-transform:scale(1.10);
+  transform:scale(1.10);
+}
+.video {
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+  max-width: 100%;
+  float: left;
+  text-align: center;
+  height: 160px;
+  width: 160px;
+  padding: 2px 8px 8px 8px;
+  background: #FFFFFF;
+  color: #777777;
+  overflow: hidden;
+  border: 6px solid #B5D5F0;
+  margin: 14px;
+  figure {
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 8px;
+  }
+  figcaption {
+      font-size: 8pt;
+      overflow: hidden;
+  }
+
+}
+.overvideo {
+  border: 6px solid #6AABE1;
+  background: #FFFFFF;
+  color: black;
+}
+
