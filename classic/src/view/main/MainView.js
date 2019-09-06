@@ -6,7 +6,8 @@ Ext.define('Tunes.view.main.MainView',{
         'Tunes.view.main.MainViewController',
         'Tunes.view.main.MainViewModel',
         'Ext.plugin.Viewport',
-        'Tunes.view.TunesView'
+        'Tunes.view.TunesView',
+        'Tunes.view.Preview'
     ],
 
     controller: 'main-mainview',
@@ -16,6 +17,9 @@ Ext.define('Tunes.view.main.MainView',{
     layout: 'fit',
     items: [{
         xtype: 'tunesview',
+        listeners: {
+            itemclick: 'onShowPreview'
+        },
         bind: {
             store: '{tunes}'
         }

@@ -3,7 +3,7 @@ Ext.define('Tunes.view.TunesView', {
   xtype: 'tunesview',
   itemCls: 'video',
   grouped: true,
-  
+  indexBar:true,
   itemTpl: [
     '<img src="{image}" style="width: 90px;">',
     '<div style="left: 110px;font-size: 1.1em;">',
