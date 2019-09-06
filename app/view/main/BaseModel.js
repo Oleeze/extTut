@@ -5,7 +5,7 @@ Ext.define('Tunes.view.main.BaseModel', {
       tunes: {
           model: 'Tunes.model.Tune',
           autoLoad: true,
-          sorters: ['artist','title']
+          sorters: ['sortArtist','title']
       }
   }
 });

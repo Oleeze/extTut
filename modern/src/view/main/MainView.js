@@ -17,7 +17,7 @@ Ext.define('Tunes.view.main.MainView',{
         {
             xtype: 'tunesview',
             bind: {
-                store: '{tunes}'
+                store: '{tunesGrouped}'
             }
         }
     ]
